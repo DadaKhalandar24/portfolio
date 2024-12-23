@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dada khalandar portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4596edd8d9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo1.png" class="logo"> -->
+                <div class="logo"><a href="#"> Dada Khalandar</a></div>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Web Developer</p>
+
+                <h1>Hi, I am <span>Dada khalandar</span><br> a Front-end Developer with a love for creating dynanic web
+                    applications</h1>
+
+
+            </div>
+        </div>
+    </div>
+    <!-----------------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background7.jpeg">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>Hi, I’m Dada Khalandar, a passionate frontend developer with a background in Computer Science and
+                        Engineering. I specialize in creating dynamic, responsive websites that blend functionality with
+                        aesthetic design. My technical expertise extends beyond frontend development to include Java,
+                        SQL, and desktop application development. With a strong foundation in HTML, CSS, and JavaScript,
+                        coupled with experience in backend technologies and database management, I’m adept at delivering
+                        comprehensive and engaging digital solutions. I’m always eager to tackle new challenges and
+                        explore innovative approaches. Explore my portfolio to see my work and connect with me for
+                        potential collaborations!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Development</span><br>HTML, CSS, React</li>
+                            <li><span>Programming Languages</span><br>Javascript</li>
+                            <li><span>Database Management</span><br>SQl Queries, SQLite Browser, Database Design</li>
+                            <li><span>Version Control</span><br>Git, GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                            <li><span>HTML, CSS, React - Udemy</span><br>A hands-on course focused on scripting, dynamic
+                                content creation, and browser interaction using<br> HTML, CSS, React.</li>
+                            <li><span>JavaScript - Udemy</span><br>A hands-on course focused on scripting, dynamic
+                                content creation, and browser interaction using JavaScript.</li>
+                            <li><span>CSS Fundamentals - HackerRank</span><br>A CSS course focused on styling web pages
+                                and creating responsive designs.</li>
+                            <li><span>Software Engineering and Agile Software Development - Infosys
+                                    Springboard</span><br>A foundational course covering software engineering principles
+                                and agile methodologies.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology in Computer Science & Engineering</span><br>Presidency
+                                University, 2020 - 2024 <br>GPA : 6.53</li>
+                            <li><span>Higher Secondary Education in Science (PCMC)</span><br>Surabhi Vidyaniketan
+                                Hospet, 2018 - 2020 <br>Percentage : 64.33%</li>
+                            <li><span>Secondary Education</span><br>St. Joesph High School, 2017 - 2018 <br>Percentage :
+                                77.44%</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Description: Building responsive, user-friendly websites and web applications using HTML, CSS,
+                        JavaScript, and modern frameworks like React.
+                        Details: Specializing in both frontend and backend development to create seamless and dynamic
+                        user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Back End</h2>
+                    <p>Description: The backend for this portfolio project serves as the backbone for managing dynamic
+                        content and
+                        enabling seamless interactions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h2>Version Control</h2>
+                    <p>Description: Utilizing Git and GitHub for effective version control and collaborative
+                        development.
+                        Details: Skilled in managing code repositories, branching, merging, and resolving conflicts to
+                        maintain clean and organized codebases.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------       project      --------------- -->
+    <div id="Project">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work4.jpg">
+                    <div class="layer">
+                        <h3>eCommerce Website</h3>
+                        <p>Description:
+                            An engaging and user-friendly eCommerce website built with HTML, CSS, JavaScript, and React.
+                            allows users to seamlessly browse, search,
+                            and purchase products online.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+
+
+
+                </div>
+                <div class="work">
+                    <img src="images/medicine1.jpg">
+                    <div class="layer">
+                        <h3>Availability Of Medicine And Doctors</h3>
+                        <p>Description: An engaging and user-friendly website built with HTML, CSS,
+                            JavaScript, and Jsp. Where user can check the availability of doctors and medicine. </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image11.jpg">
+                    <div class="layer">
+                        <h3>Car rental</h3>
+
+                        <p>Description:
+                            An engaging and user-friendly website built with HTML, CSS, JavaScript, and React.
+                            The platform features an intuitive interface that allows users to seamlessly search,
+                            and rent car.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/calc2.jpg">
+                    <div class="layer">
+                        <h3>Simple Calculator</h3>
+
+                        <p>Description:
+                            I designed and performed a user-friendly and
+                            efficient calculator application for Computer platforms. Leveraging expertise
+                            in Computer app development. Using HTML, CSS, JavaScript.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -------------------------contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> khalandarqazi@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-8660423182</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/dada-khalandar-35ba6528b/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/DadaKhalandar24"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/khalandar_resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Dada Khalandar</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx_ZSViwEUgmDHT-flsvKSpBGo-xj1gbGrrB_GaxKSaBTpxxWQJ9RAQymiB18Q7PWLIGw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
